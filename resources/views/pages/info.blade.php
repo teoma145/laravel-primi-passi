@@ -11,15 +11,15 @@
 
         <!-- Styles -->
         <style>
-            
+
         </style>
 
         <style>
-            
+
         </style>
     </head>
     <body class="antialiased">
         <h1>informazioni sul sito</h1>
-       
+        <a href="{{route('home')}}">home</a>
     </body>
 </html>

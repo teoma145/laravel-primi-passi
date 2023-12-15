@@ -19,7 +19,8 @@ Route::get('/', function () {
         'age'=> '24',
     ];
     return view('myhome',$data);
-});
+})->name('home');
+
 Route::get('/info', function () {
     return view('pages.info');
 })->name('info');
